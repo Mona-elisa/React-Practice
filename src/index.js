@@ -4,14 +4,31 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+ import AllProject from './AllProject';
+
+ const customStyle = {
+  color: "white",
+  backgroundColor: "black",
+  fontFamily: "Arial",
+  fontSize: "30px",
+  padding: "20px",
+  borderRadius: "5px",
+  border: "2px solid red"
+ };
+ customStyle.fontFamily = "Times New Roman";
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <div style={customStyle}>
+      <AllProject />
+   
+    </div>
+
+
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();

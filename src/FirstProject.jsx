@@ -1,9 +1,10 @@
-import React from "react";
+import React , {useEffect} from "react";
 var number = 10;
  const fname = "fatima";
  const lname = "khan";
  
 function FirstProject(){
+  
   return (
     <div>
     {/*why we not use class to access classes of element 

@@ -26,3 +26,14 @@ code {
  font-family: 'Courier New', Courier, monospace;
  font-weight: bold;
 }
+.input-error {
+  color: red;
+  font-size: 1rem;
+  margin-top: 5px;
+  border: 1px solid red;
+}
+.error-msg {
+  color: red;
+  font-size: 1rem;
+  margin-top: 5px;
+}

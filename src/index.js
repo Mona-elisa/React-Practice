@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import PropSection from './PropsSection';
 import HookSection from './HookSection';
 import FormSection from './FormSection';
-
  import AllProject from './AllProject';
+ import ReactFormBasic from './React-Form-Basic';
 
  const customStyle = {
   color: "white",
@@ -35,6 +35,7 @@ root.render(
       age="23"
       />
       <FormSection />
+      <ReactFormBasic />
      </div>
   </React.StrictMode>
 );

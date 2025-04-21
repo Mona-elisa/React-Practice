@@ -7,6 +7,7 @@ import PropSection from './PropsSection';
 import HookSection from './HookSection';
 import FormSection from './FormSection';
  import AllProject from './AllProject';
+import ReactDynamicForm from './React-Dynamic-Form';
  import ReactFormBasic from './React-Form-Basic';
 
  const customStyle = {
@@ -36,6 +37,7 @@ root.render(
       />
       <FormSection />
       <ReactFormBasic />
+      <ReactDynamicForm />
      </div>
   </React.StrictMode>
 );

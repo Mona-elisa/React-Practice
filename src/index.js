@@ -9,6 +9,7 @@ import FormSection from './FormSection';
  import AllProject from './AllProject';
 import ReactDynamicForm from './React-Dynamic-Form';
  import ReactFormBasic from './React-Form-Basic';
+ import FormHookYup from './FormHookYup';
 
  const customStyle = {
   color: "white",
@@ -38,6 +39,7 @@ root.render(
       <FormSection />
       <ReactFormBasic />
       <ReactDynamicForm />
+      <FormHookYup />
      </div>
   </React.StrictMode>
 );
